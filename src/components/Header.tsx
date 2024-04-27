@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="w-full h-16 flex justify-between items-center p-3 border-b border-gray-500">
+    <header className="w-full h-16 flex dark:bg-slate-800 justify-between items-center p-3 border-b border-gray-500">
       <h1 className="font-bold">Assignment Solutions</h1>
       <nav className="flex gap-1">
         <NavLink

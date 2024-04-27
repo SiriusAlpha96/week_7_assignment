@@ -9,7 +9,7 @@ export default function ParagraphGen() {
   
   return (
     <div>
-        <div className=" font-medium text-gray-700">ParagraphGen
+        <div className=" font-medium text-gray-700 dark:bg-slate-800">ParagraphGen
         <input type="number" className="shadow-md shadow-slate-400 px-0.5"/>
         <button
           onClick={() => generateRandomParagraph()}

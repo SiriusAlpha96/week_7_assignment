@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function ColorChanger() {
   const [color, setColor] = useState("white");
   return (
-    <div className={`w-full h-screen bg-${color} relative transition`}>
+    <div className={`w-full h-screen bg-${color} relative transition dark:bg-slate-800`}>
       <div className="__pallete fixed rounded w-fit p-3 flex gap-3 bg-white shadow bottom-5 left-1/2 translate-x-[-50%]">
         <button
           onClick={() => setColor("red-500")}

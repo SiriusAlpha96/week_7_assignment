@@ -1,6 +1,6 @@
 export default function ProfileCard() {
   return (
-    <div className=" w-full h-screen flex justify-center items-center p-3">
+    <div className=" w-full h-screen flex justify-center items-center p-3 dark:bg-slate-800">
       <div className="__card bg-white shadow h-[320px] w-[280px] rounded overflow-hidden">
         <div className="__image h-1/2 relative flex justify-center items-end">
           <div className="__background h-[80%] w-full bg-blue-500 absolute top-0"></div>
