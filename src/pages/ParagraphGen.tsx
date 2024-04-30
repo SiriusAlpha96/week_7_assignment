@@ -9,7 +9,10 @@ export default function ParagraphGen() {
   
   return (
     <div>
-        <div className=" font-medium text-gray-700 dark:bg-slate-800">ParagraphGen
+        <div className=" font-medium text-gray-700 dark:bg-slate-800">
+          <br/>
+          <div>ParagraphGen</div>
+          <br/>
         <input type="number" className="shadow-md shadow-slate-400 px-0.5"/>
         <button
           onClick={() => generateRandomParagraph()}
@@ -43,6 +46,7 @@ function generateRandomParagraph(sentenceCount: number = 5): string {
   }
 
   return paragraph.trim();
+  console.log(paragraph)
 }
 
 
